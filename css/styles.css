@@ -106,17 +106,16 @@ body {
   display: flex;
 }
 
-link.active::after {
+.active::after {
     position: absolute;
     display: block;
-    content: "";
-    bottom: -1.3px;
-    left: 0;
-
-    background-color: var(--accent-color);
+    content: '';
     width: 100%;
     height: 4px;
     border-radius: 2px;
+    bottom: -1.3px;
+    left: 0;
+    background: var(--accent-color);
 }
 
 .list-nav .link:hover,
