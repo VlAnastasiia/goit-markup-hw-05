@@ -106,7 +106,7 @@ body {
   display: flex;
 }
 
-.active::after {
+.link.active::after {
     position: absolute;
     display: block;
     content: '';
