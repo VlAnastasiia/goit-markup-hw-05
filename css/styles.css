@@ -581,6 +581,13 @@ link.active::after {
   transform: translateY(100%);
   transition: var(--transition-duration);
 }
+.portfolio-link:hover .portfolio-text,
+.portfolio-link:focus .portfolio-text
+{
+    opacity: 1;
+    transform: translateY(0);
+
+}
 
 /* Filter`s text style */
 .list-portfolio
