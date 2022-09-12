@@ -106,7 +106,7 @@ body {
   display: flex;
 }
 
-.link.active::after {
+.link.current::after {
     position: absolute;
     display: block;
     content: '';
@@ -124,7 +124,7 @@ body {
 .list-header .link:focus,
 .list-footer .link:hover,
 .list-footer .link:focus,
-.link.active
+.link.current
 {
   color: var(--accent-color);
   transition: var(--transition-duration);
