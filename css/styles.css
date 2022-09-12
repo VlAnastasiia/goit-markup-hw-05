@@ -106,7 +106,7 @@ body {
   display: flex;
 }
 
-.link.current::after {
+/* .link.current::after {
     position: absolute;
     display: block;
     content: '';
@@ -116,7 +116,7 @@ body {
     bottom: -1.3px;
     left: 0;
     background: var(--accent-color);
-}
+} */
 
 .list-nav .link:hover,
 .list-nav .link:focus,
