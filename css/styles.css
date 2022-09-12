@@ -234,7 +234,7 @@ body {
   1px 0px 1px rgba(0, 0, 0, 0.14),
   3px 0px 1px rgba(0, 0, 0, 0.12); 
 }
-.w-hidden{
+.is-hidden{
   opacity: 0;
   pointer-events: none;
   visibility: hidden;
