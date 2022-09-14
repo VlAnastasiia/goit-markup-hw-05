@@ -449,11 +449,13 @@ body {
   height: 44px;
   border-radius: 50%;
   transition: background-color var(--transition-duration);
+  transition-property: all;
 
 }
 .link-icon{
   fill: #AFB1B8;
   transition: fill var(--transition-duration);
+  transition-property: all;
 }
 .list-icon:hover,
 .list-icon:focus{
@@ -493,6 +495,7 @@ body {
   border-radius: 4px;
   /* color: #AFB1B8; */
   transition: color, border-color var(--transition-duration);
+  transition-property: all;
 }
 .clients-list{
   display: flex;
@@ -562,6 +565,7 @@ body {
   padding: 0;
   margin: 0;
   transition: var(--transition-duration);
+  transition-property: all;
 }
 /* socials footer */
 .footer-title{
@@ -588,6 +592,7 @@ body {
   background-color: #ffffff1a;
   color: var(--background-color);
   transition: var(--transition-duration);
+  transition-property: all;
 }
 .socials-link-footer:hover,
 .socials-link-footer:focus{
@@ -616,6 +621,7 @@ body {
   font-size: 16px;
   line-height: 1.6;
   transition: var(--transition-duration);
+  transition-property: all;
 }
 
 .btn.active,
@@ -650,6 +656,7 @@ body {
   border: 1px solid #EEEEEE;
   background-color: var(--background-color);
   transition: var(--transition-duration);
+  transition-property: all;
 }
 .list-img:hover
 {
@@ -676,6 +683,7 @@ body {
   line-height: 1.33;
   transform: translateY(100%);
   transition: var(--transition-duration);
+  transition-property: all;
 }
 .portfolio-link:hover .portfolio-text,
 .portfolio-link:focus .portfolio-text
