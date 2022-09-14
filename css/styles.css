@@ -497,7 +497,7 @@ body {
 
 .client-icon
 {
-  fill: #AFB1B8;
+  fill: currentColor;
 }
 
 .client-link:hover,
