@@ -167,6 +167,12 @@ body {
   fill: currentColor;
   margin-right: 10px;
 }
+
+.list-header .link:hover .header-icon,
+.list-header .link:focus .header-icon
+{
+  fill: var(--accent-color);
+}
 /* Hero */
 
 .section.hero {
@@ -495,10 +501,10 @@ body {
   gap: 30px;
 }
 
-/* .client-icon
+.client-icon
 {
   fill: currentColor;
-} */
+}
 
 .client-link:hover,
 .client-link:focus
