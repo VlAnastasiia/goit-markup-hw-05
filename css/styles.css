@@ -495,10 +495,10 @@ body {
   gap: 30px;
 }
 
-.client-icon
+/* .client-icon
 {
   fill: currentColor;
-}
+} */
 
 .client-link:hover,
 .client-link:focus
