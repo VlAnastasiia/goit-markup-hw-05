@@ -94,6 +94,8 @@ body {
   color: var(--title-text-color);
   font-weight: 500;
   line-height: 1.14;
+  transition: var(--transition-duration);
+  transition-property: all;
   
 }
 .list-nav .item
@@ -105,6 +107,7 @@ body {
   margin: 0;
   display: flex;
   transition: var(--transition-duration);
+  transition-property: all;
 }
 
 .item .current{
@@ -144,6 +147,8 @@ body {
   font-weight: 500;
   line-height: 1.14;
   color: var(--primary-text-color);
+  transition: var(--transition-duration);
+  transition-property: all;
 }
 .list-header{
   display: flex;
@@ -152,6 +157,7 @@ body {
   margin: 0;
   margin-left: auto;
   transition: var(--transition-duration);
+  transition-property: all;
 }
 .list-header .list+.list
 {
@@ -207,6 +213,7 @@ body {
   border: transparent;
   cursor: pointer;
   transition: var(--transition-duration);
+  transition-property: all;
 }
 .btn-hero:hover,
 .btn-hero:focus
@@ -435,12 +442,12 @@ body {
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  color: #AFB1B8;
+  transition: background-color var(--transition-duration);
 
 }
 .link-icon{
-  fill: currentColor;
-  transition: var(--transition-duration);
+  fill: #AFB1B8;
+  transition: fill var(--transition-duration);
 }
 .list-icon:hover,
 .list-icon:focus{
@@ -479,7 +486,7 @@ body {
   border: 1px solid #AFB1B8;
   border-radius: 4px;
   color: #AFB1B8;
-  transition: var(--transition-duration);
+  transition: color, border-color var(--transition-duration);
 }
 .clients-list{
   display: flex;
@@ -487,13 +494,12 @@ body {
   justify-content: center;
   gap: 30px;
 }
-.client-icon{
-  fill: currentColor;
-}
+
 .client-link:hover,
 .client-link:focus
 {
   border-color: var(--accent-color);
+  color: var(--accent-color);
 }
 .client-link:hover .client-icon,
 .client-link:focus .client-icon{
