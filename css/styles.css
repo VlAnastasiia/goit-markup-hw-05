@@ -34,7 +34,7 @@ body {
   font-size: 14px;
   letter-spacing: 0.03em;
 }
-/* header backgrond */
+/* header background */
 .header {
   border-bottom: 1px solid #ECECEC;;
   background-color: var(--background-color);
@@ -146,7 +146,7 @@ body {
   font-weight: 500;
   line-height: 1.14;
   color: var(--primary-text-color);
-  transition: var(--transition-duration);
+  transition: color var(--transition-duration);
 
 }
 .list-header{
@@ -155,8 +155,7 @@ body {
   justify-content: center;
   margin: 0;
   margin-left: auto;
-  transition: var(--transition-duration);
-  transition-property: all;
+  transition: color var(--transition-duration);
 }
 .list-header .list+.list
 {
@@ -167,7 +166,7 @@ body {
   margin-right: 10px;
 }
 
-.list-header .link:hover .header-icon,
+.list-header .link:hover,
 .list-header .link:focus 
 {
   fill: var(--accent-color);
