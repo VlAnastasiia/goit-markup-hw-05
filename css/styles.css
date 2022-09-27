@@ -551,7 +551,7 @@ body {
   line-height: 1.7;
   color: var(--background-color);
   color: rgba(255, 255, 255, 0.6);
-  transition: color var(--transition-duration);
+  transition: var(--transition-duration);
 }
 .list-footer .item+.item{
   margin-top: 9px;
