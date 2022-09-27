@@ -95,7 +95,6 @@ body {
   font-weight: 500;
   line-height: 1.14;
   transition: var(--transition-duration);
-  transition-property: all;
   
 }
 .list-nav .item
@@ -148,7 +147,7 @@ body {
   line-height: 1.14;
   color: var(--primary-text-color);
   transition: var(--transition-duration);
-  transition-property: all;
+
 }
 .list-header{
   display: flex;
@@ -169,7 +168,7 @@ body {
 }
 
 .list-header .link:hover .header-icon,
-.list-header .link:focus .header-icon
+.list-header .link:focus 
 {
   fill: var(--accent-color);
 }
@@ -449,13 +448,10 @@ body {
   height: 44px;
   border-radius: 50%;
   transition: background-color var(--transition-duration);
-  transition-property: all;
-
 }
 .link-icon{
   fill: #AFB1B8;
   transition: fill var(--transition-duration);
-  transition-property: all;
 }
 .list-icon:hover,
 .list-icon:focus{
@@ -493,9 +489,8 @@ body {
   height: 92px;
   border: 1px solid #AFB1B8;
   border-radius: 4px;
-  /* color: #AFB1B8; */
-  transition: color, border-color var(--transition-duration);
-  transition-property: all;
+  color: #AFB1B8;
+  transition: color var(--transition-duration), border-color var(--transition-duration);
 }
 .clients-list{
   display: flex;
@@ -506,7 +501,7 @@ body {
 
 .client-icon
 {
-  fill: #AFB1B8;
+  fill: currentColor;
 }
 
 .client-link:hover,
@@ -556,6 +551,7 @@ body {
   line-height: 1.7;
   color: var(--background-color);
   color: rgba(255, 255, 255, 0.6);
+  transition: color var(--transition-duration);
 }
 .list-footer .item+.item{
   margin-top: 9px;
@@ -591,8 +587,7 @@ body {
   border-radius: 50%;
   background-color: #ffffff1a;
   color: var(--background-color);
-  transition: var(--transition-duration);
-  transition-property: all;
+  transition: background-color var(--transition-duration);
 }
 .socials-link-footer:hover,
 .socials-link-footer:focus{
