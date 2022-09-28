@@ -94,7 +94,7 @@ body {
   color: var(--title-text-color);
   font-weight: 500;
   line-height: 1.14;
-  transition: var(--transition-duration);
+  transition: color var(--transition-duration);
   
 }
 .list-nav .item
@@ -106,7 +106,6 @@ body {
   margin: 0;
   display: flex;
   transition: var(--transition-duration);
-  transition-property: all;
 }
 
 .item .current{
@@ -216,8 +215,7 @@ body {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border: transparent;
   cursor: pointer;
-  transition: var(--transition-duration);
-  transition-property: all;
+  transition: background-color var(--transition-duration);
 }
 .btn-hero:hover,
 .btn-hero:focus
@@ -552,7 +550,7 @@ body {
   line-height: 1.7;
   color: var(--background-color);
   color: rgba(255, 255, 255, 0.6);
-  transition: var(--transition-duration);
+  transition: color var(--transition-duration);
 }
 .list-footer .item+.item{
   margin-top: 9px;
@@ -561,8 +559,7 @@ body {
 {
   padding: 0;
   margin: 0;
-  transition: var(--transition-duration);
-  transition-property: all;
+  transition: color var(--transition-duration);
 }
 /* socials footer */
 .footer-title{
@@ -616,8 +613,7 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
-  transition: var(--transition-duration);
-  transition-property: all;
+  transition: color var(--transition-duration), background-color var(--transition-duration), box-shadow var(--transition-duration);
 }
 
 .btn.active,
@@ -651,8 +647,7 @@ body {
   box-sizing: border-box;
   border: 1px solid #EEEEEE;
   background-color: var(--background-color);
-  transition: var(--transition-duration);
-  transition-property: all;
+  transition: box-shadow var(--transition-duration);
 }
 .list-img:hover
 {
@@ -678,8 +673,7 @@ body {
   font-size: 18px;
   line-height: 1.33;
   transform: translateY(100%);
-  transition: var(--transition-duration);
-  transition-property: all;
+  transition: transform var(--transition-duration);
 }
 .portfolio-link:hover .portfolio-text,
 .portfolio-link:focus .portfolio-text
